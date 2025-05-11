@@ -1,0 +1,25 @@
+{
+  "name": "bday",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "ics": "^3.8.1"
+  },
+  "build": {
+    "appId": "com.yourname.bday",
+    "productName": "Birthday Saver",
+    "win": {
+      "icon": "assets/icon.ico"
+    }
+  }
+}
